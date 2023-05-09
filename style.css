@@ -1,0 +1,39 @@
+.banner p {
+    font-weight: bold;
+    text-justify: newspaper;
+}
+
+
+/* table area  */
+table.GeneratedTable {
+    width: 100%;
+    background-color: #ffffff;
+    border-collapse: separate;
+    border-width: 1px;
+    border-color: #ffcc00;
+    border-style: double;
+    color: #000000;
+}
+
+table.GeneratedTable td,
+table.GeneratedTable th {
+    border-width: 1px;
+    border-color: #ffcc00;
+    border-style: double;
+    padding: 3px;
+}
+
+table.GeneratedTable thead {
+    background-color: #ffcc00;
+}
+
+/* table area  */
+
+.pill {
+    height: 0px;
+    border-radius: 2px;
+    $color: teal;
+    color: $color;
+    border: 3px solid green;
+    width: 70%;
+}
